@@ -84,7 +84,7 @@ like __init__() or __str__()
 
 # CHARACTER METHODS (not their real name)
 
-goal = 'be the motherfucking best one in this shit, and flex that MONEY'
+goal = ' be the motherfucking best one in this shit, and flex that MONEY'
 
 # .lower() - every character to lowercase
 print(goal.lower()) 
@@ -96,3 +96,9 @@ print(goal.capitalize())
 print(goal.title())
 # .swapcase - lowers to uppers and viceversa
 print(goal.swapcase())
+# .strip - removes any space that might be in the beggining or end of the string
+print(goal.strip())
+# .replace - replaces one word for another. The FIRST ARGUMENT must be the original string and the SECOND the replacement
+print(goal.replace("motherfucking", "ultimate"))
+# .count("o") - counts how many of that string there are
+print(goal.count("o"))
