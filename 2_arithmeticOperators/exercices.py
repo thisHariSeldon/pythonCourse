@@ -4,10 +4,10 @@ mult = 2 * 5
 div = sum / mult
 operation1 = div ** 2
 
-print(operation)
+print(operation1)
 #or
 operation2 = ((3 + 2) / (2 * 5)) ** 2
-print(operation)
+print(operation2)
 #we can also use pow(), it uses base, power, ie:
 print(pow(5,2)) #this would be 5 to the 2nd power
 operation3 = pow(div,2)
